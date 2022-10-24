@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+/* header */
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.col-2 .mur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-3{
+    background-color: white;
+    padding: 15px 1px;
+    border-radius: 5px;
+    width: 400px;
+}
+.cta{
+    background-color: rgb(244, 233, 213);
+    padding: 10px 20px;
+    color: orange;
+    border-radius: 20px 20px;
+}
+.mur li{
+    padding: 30px 10px ;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.vip{
+    background-color: orange;
+    border-radius: 120px;
+    color: white;
+    padding: 10px 40px;    
+}
+.background-blue{
+    background-color: lightblue;
+    position: relative;
+}
+footer{
+    background-color: rgb(2, 65, 141);
+}
+.more{
+    color: orange;
+}
+h1{
+    font-size: 60px;
+    width: 90%;
+    padding: 10px;
+}
+h2{
+    width: 60%;
+    font-size: 30px;
+}
+.second-1{
+    width: 85%;
+    padding: 3rem;
+}
+.photo{
+    border-radius: 40px;
+    height: 600px;
+}
+.text-box{
+    background-color: orange;
+    max-width: 100%;
+    height: 500px; 
+    color: white;
+    background-image: url(/images/experience-image.png);  
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: flex;
+}
+p{
+    padding: 10px 10px ;
+}
+.too{
+    font-size: 50px;
+    color: orange;
+}
+.jijig{
+    height: 40px;
+    border-radius: 40px;
+}
+.pic{
+    background-image: url(../images/about-image.png) /cover;
+    background-size: 20px 50px;
+    border-radius: 20px;
+}
+.text-box .abc{
+    margin-left: 52%;
+    margin-top: 180px;
+    align-items: center;
+}
+.zot{
+    background-color: white;
+    color: orange;
+    border-radius: 20px;
+    padding: 10px; 
+    display: inline-block;
+    padding-top: 10px;
+}
+.fifth .container{
+    position: relative;
+}
+.fifth .background-blue::after{
+    content: url(/images/Ribbon.png);
+    position: absolute;
+    top: 83px;
+    right: 105px;
+}
+.team{
+    padding: 0px 120px;
+}
